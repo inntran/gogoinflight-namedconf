@@ -1,0 +1,8 @@
+以下文件是针对 Gogo Inflight 的飞机上网业务的，
+使得你能够在不花钱的情况下访问 Youtube 视频以外的大部分 Google 服务。
+原理：Gogo Inflight 将一些 Google 使用的 IP 段做了白名单处理
+作者本人曾在飞机上使用以下配置查收 Gmail 邮件，使用邮件中的聊天功能。
+
+所需软件 ISC BIND 9，Mac OS X 中自带，Linux 用户可以从发行版的软件源中安装。
+
+使用前请调整 named.conf 中的路径
